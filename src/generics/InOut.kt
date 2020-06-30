@@ -1,3 +1,4 @@
+/*
 package generics
 
 fun main(){
@@ -34,4 +35,4 @@ class InOutBurger : Production<Burger> {
         println("Produce burger")
         return Burger()
     }
-}
+}*/
