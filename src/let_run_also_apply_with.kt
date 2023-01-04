@@ -24,8 +24,8 @@ fun main() {
     println("STR3 after modification using run function : $str3")
 
 
-    //// also function :  as name says, expressions does some additional processing on the object it was invoked but doesn't
-    // change the value of actual object. Return value same as calling object. support it keyword.
+    //// also function :  as name says, expressions does some additional processing on the object it was invoked but
+    // doesn't change the value of actual object. Return value same as calling object. support it keyword.
 
     var str4  = "Also testing"
     var a = str4.also {
@@ -49,7 +49,7 @@ fun main() {
     println("After applying some changes on str5 using apply function $str5")
 
 
-    //// with function : like apply but changes apply without dot operator
+    //// with function : like apply but didn't return the object
     val str6 = Person("Zero","One")
 
     with(str6){
@@ -59,7 +59,7 @@ fun main() {
 
     }
 
-    println("After applying some changes on str5 using with function $str6")
+    println("After applying some changes on str6 using with function $str6")
 
 }
 
